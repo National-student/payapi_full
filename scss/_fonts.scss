@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/public-sans-v7-latin-regular.woff2') format('woff2'), 
+         url('../fonts/public-sans-v7-latin-regular.woff') format('woff'); 
+  }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/public-sans-v7-latin-700.woff2') format('woff2'), 
+         url('../fonts/public-sans-v7-latin-700.woff') format('woff'); 
+  }
+
+  /* dm-serif-display-regular - latin */
+@font-face {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/dm-serif-display-v5-latin-regular.woff2') format('woff2'), 
+         url('../fonts/dm-serif-display-v5-latin-regular.woff') format('woff'); 
+  }
+
+  /* roboto-mono-regular - latin */
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/roboto-mono-v13-latin-regular.woff2') format('woff2'), 
+         url('../fonts/roboto-mono-v13-latin-regular.woff') format('woff'); 
+  }

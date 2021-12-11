@@ -1,0 +1,59 @@
+.start {
+    &__container {
+        margin-top: 81px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-family: 'DM Serif Display';
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.369231px;
+        color: #36536B;
+    }
+}
+
+@media only screen and (max-width:825px) {
+    .start {
+        &__container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__title {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+
+@media only screen and (max-width:475px) {
+    .start {
+        &__title {
+            font-size: 32px;
+            margin-bottom: 32px;
+        }
+    }
+    
+    .form {
+            flex-direction: column;
+        
+            &__input {
+              padding-right: 26px;
+              margin-bottom: 16px;
+            }
+        
+            &__btn {
+              position: relative;
+            }
+        
+            &__text {
+              span {
+                font-size: 14px;
+              }
+            }
+          }
+}

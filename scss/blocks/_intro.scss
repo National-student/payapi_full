@@ -1,0 +1,160 @@
+.intro {
+   
+        background-image: url(../img/code.png);
+        background-repeat: no-repeat;
+        background-size: 445px;
+        background-position: top 90px left calc(50% - 370px);
+
+    &__container {
+        padding-top: 150px;
+        padding-bottom: 37px;
+    }
+
+    &__content {
+        margin-left: 600px;
+    }
+
+    &__title {
+        margin: 0;
+        font-family: 'DM Serif Display';
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.369231px;
+        color: #36536B;
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        display: inline-block;
+        margin: 0;
+        font-family: 'Public Sans';
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 28px;
+        color: #6C8294;
+        width: 445px;
+    }
+
+}
+
+@media only screen and (max-width:1075px) {
+    .intro {
+
+        background-size: 392px;
+        background-position: top 110px left calc(50% - 245px);
+
+    &__content {
+        margin-left: 400px;
+    }
+
+    &__title {
+        font-size: 43px;
+        width: 380px;
+    }
+
+    &__text {
+        font-size: 15px;
+        width: 380px;
+    }
+
+    }   
+}
+
+@media only screen and (max-width:810px) {
+    .intro {
+
+        background-size: 392px;
+        background-position: top 110px left calc(50% - 190px);
+
+    &__content {
+        margin-left: 355px;
+    }
+
+}
+
+}
+
+@media screen and (max-width:768px) {
+    .intro {
+
+        background-size: 391px;
+        background-position: top 72px left calc(50% - -7px);
+
+    &__container {
+        padding-top: 398px;
+        padding-bottom: 100px;
+    }
+
+    &__content {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__title {
+        display: inline-block;
+       text-align: center;
+    }
+
+    &__text {
+        width: 573px;
+    }
+
+}
+
+}
+
+@media only screen and (max-width:605px) {
+    .intro {
+
+        background-size: 391px;
+        background-position: top 72px left calc(50% - -7px);
+
+    &__container {
+        padding-top: 398px;
+        padding-bottom: 100px;
+    }
+
+    &__content {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 36px;
+        width: 327px;
+    }
+
+    &__text {
+        width: 327px;
+    }
+}
+}
+
+@media only screen and (max-width:425px) {
+    .intro {
+
+        background-size: 391px;
+        background-position: top 72px left calc(50% - -7px);
+
+    &__container {
+        padding-top: 398px;
+        padding-bottom: 100px;
+    }
+
+    &__content {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 34px;
+        width: 273px;
+    }
+
+    &__text {
+        font-size: 15px;
+        width: 273px;
+    }
+}
+}

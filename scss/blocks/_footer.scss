@@ -1,0 +1,144 @@
+.footer {
+    background: #1B262F;
+    background-image: url(../img/circle.png);
+    background-repeat: no-repeat;
+    background-size: 780px;
+    background-position: top -150px right calc(50% - 650px);
+
+    &__container {
+        padding: 31px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        margin-right: 64px;
+    }
+
+    &__link {
+        color: #FBFCFE;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        margin-left: 24px;
+    }
+}
+
+.footer-nav {
+
+    svg {
+        display: block;
+    }
+
+    &__list {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+  
+    &__link {
+      font-family: 'Public Sans';
+      margin-right: 40px;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 18px;
+      text-decoration: none;
+      color: #FBFCFE;
+      opacity: 0.7;
+      transition: all 0.3s ease;
+  
+      &:hover {
+        opacity: 0.5
+      }
+
+      &:active {
+        opacity: 1;
+      }
+    }
+  }
+
+.footer-img {
+    display: block;
+}
+
+@media only screen and (max-width:768px) {
+    .footer {
+
+        background-position: top -150px right calc(50% - 400px);
+
+        &__container {
+            margin-left: 40px;
+            margin-right: 38px;
+        }
+
+    }
+}
+
+@media only screen and (max-width:695px) {
+    .footer {
+
+        background-position: top 175px right calc(50% - 0px);
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__logo {
+            margin-right: 0;
+            margin-bottom: 40px;
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__list {
+            text-align: center;
+        }
+
+        &__item {
+            margin-left: 0;
+            margin-right: 24px;
+        }
+
+        &__item:last-child {
+            margin-right: 0;
+        }
+
+        .footer-nav {
+            &__list {
+                display: flex;
+                flex-direction: column;
+            }
+
+            &__item {
+                margin-bottom: 31px;
+            }
+
+            &__item:last-child {
+                margin-bottom: 39px;
+            }
+
+            &__link {
+                margin-right: 0;
+            }
+        }
+    }
+}

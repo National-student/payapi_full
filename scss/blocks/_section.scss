@@ -1,0 +1,105 @@
+.section {
+
+    &__container {
+        margin-top: 95px;
+        margin-bottom: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__content::before {
+        content: '';
+        background-image: url(../img/money.png);
+        background-repeat: no-repeat;
+        width: 106px;
+        height: 106px;
+        margin-left: 120px;
+        padding-left: 150px;
+        padding-top: 120px;
+    }
+
+    &__title {
+        margin: 0;
+        font-family: 'Public Sans';
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.138462px;
+        color: #36536B;
+        width: 350px;
+    }
+
+    &__text {
+        margin-top: 16px;
+        font-family: 'Public Sans';
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.115385px;
+        color: #6C8294;
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width:1080px) {
+    .section {
+
+        &__container {
+            max-width: 689px;
+            display: flex;
+            align-items: stretch;
+        }
+
+        &__content::before {
+            width: 88px;
+            height: 88px;
+            margin-left: 58px;
+            padding-left: 150px;
+            padding-top: 120px;
+        }
+    
+        &__title {
+            width: 223px;
+        }
+    
+        &__text {
+            width: 223px;
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .section {
+
+        &__container {
+            max-width: 328px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        &__content {
+            margin-top: 186px;
+        }
+
+        &__content::before {
+            width: 106px;
+            height: 106px;
+            margin-left: 112px;
+            padding-left: 150px;
+            padding-top: 120px;
+        }
+    
+        &__title {
+            width: 328px;
+        }
+    
+        &__text {
+            width: 328px;
+        }
+    }
+}
